@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/Canmel/spring-cloud-config/
+          username: 892379244@qq.com
+          password: lidejian1654167
+          search-paths: config
